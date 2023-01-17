@@ -1,0 +1,133 @@
+* {margin: 0;
+padding: 0;}
+
+body {
+    background-color: #222930;
+}
+
+@font-face {
+    font-family:"JetBrainsMono-Bold";
+    src: url("../Fonts/static/JetBrainsMono-Bold.ttf") format("truetype");
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background: #15191d;
+    z-index: 1;
+}
+
+.btn1:hover {
+    cursor: pointer;
+}
+
+li {
+    float: left;
+    display: block;
+    color: rgb(139, 31, 179);
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'JetBrainsMono-Bold';
+    font-size: 20px;
+}
+
+li:hover {
+    background: rgb(21, 25, 29);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(139, 31, 179);
+}
+#page0{
+    margin-top: 5rem;
+    font-family:'JetBrainsMono-Bold';
+    
+}
+#page1 {
+    margin-top: 2rem;
+    font-family:'JetBrainsMono-Bold';
+    background-color:#222930 ;
+    height: 700px; 
+}
+#ozon{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 15%;
+
+    font-family:'JetBrainsMono-Bold';
+    color: white;
+    font-size: 24px;
+    gap: 50px;
+}
+#header1 {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    
+    
+}
+#header2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    color: 	 #8400bd;
+    
+}
+#projectWindow1{
+    display: flex;
+    background: #2B343C;;
+    width: 400px;
+    height: 400px;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.textozon{display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 800px;
+    color: #939CA5;
+    font-size: 22px;
+}
+
+#row1{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+#row2{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+#boxPage0{
+    height: 600px;
+    background-color: #222930;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footer{
+    background-color:#222930 ;  
+
+}
+#footerlogo{
+padding-top: 50px;
+padding-bottom: 50px;
+background-color:#222930 ;
+display: flex;
+justify-content: center;
+gap: 20px;
+}

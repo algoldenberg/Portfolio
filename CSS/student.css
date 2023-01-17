@@ -1,0 +1,224 @@
+* {margin: 0;
+    padding: 0;}
+
+.back-to-top {
+        background: #ffffff;
+        border-radius: 50%;
+        position: fixed;
+        bottom: -50px;
+        padding: 10px 12px;
+        right: 50px;
+        cursor: pointer;
+        transition: 0.3s all;
+    }
+    
+.back-to-top.active {
+        bottom: 50px;
+        transition: 0.3s all;
+    }    
+body {
+        background: #2B343C;
+    }
+    
+@font-face {
+        font-family:"JetBrainsMono-Bold";
+        src: url("../Fonts/static/JetBrainsMono-Bold.ttf") format("truetype");
+    }
+ul {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        list-style-type: none;
+        overflow: hidden;
+        background: #15191d;
+        z-index: 1;
+    }
+    
+.btn11:hover {
+        cursor: pointer;
+    }
+.btn22:hover {
+        cursor: pointer;
+    }
+    
+li {
+        float: left;
+        display: block;
+        color: rgb(139, 31, 179);
+        text-align: center; 
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family:'JetBrainsMono-Bold';
+        font-size: 20px;
+    }
+    
+li:hover {
+        background: rgb(21, 25, 29);
+    }
+    
+a {
+        text-decoration: none;
+        color: rgb(139, 31, 179);
+    }
+#page0{
+        margin-top: 3rem;
+        font-family:'JetBrainsMono-Bold';
+        height: 900px;
+    }
+#page1 {
+        margin-top: 5rem;
+        font-family:'JetBrainsMono-Bold';
+        background-color:#222930 ;
+        height: 950px;
+        
+    }
+
+#page2 {
+
+        font-family:'JetBrainsMono-Bold';
+        height: 900px;
+        margin-bottom: 10rem;
+        
+    }
+
+#page3 {
+        margin-top: 5rem;
+        font-family:'JetBrainsMono-Bold';
+        height: 950px;
+        background-color:#222930 ;
+        
+    }
+
+
+#page4 {
+
+        font-family:'JetBrainsMono-Bold';
+        height: 950px;
+        margin-bottom: 10rem;
+        
+    }
+
+#ozon{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 15%;
+        font-family:'JetBrainsMono-Bold';
+        color: white;
+        font-size: 24px;
+        gap: 50px;
+    }
+#header1 {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 100px;
+        
+    }
+#header2 {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 100px;
+
+    }
+
+#header3 {
+        color: white;
+        font-size: 72px;
+        text-align: center;
+        /* margin-top: 300px; */
+        padding-top: 100px;
+        }
+#projectWindow0{
+display: flex;
+/* background-color: #2B343C ; */
+width: 400px;
+height: 400px;
+gap: 10px;
+padding: 10px;
+border-radius: 50%;
+        }
+    #projectWindow1{
+        display: flex;
+        /* background-color:#222930 ; */
+        width: 400px;
+        height: 400px;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+                
+    .text1{display: flex;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        width: 800px;
+        color: #939CA5;
+        font-size: 22px;
+    }
+    
+    #row1{
+        display: flex;
+        width: 400px;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+#boxPage0{
+    display: flex;
+    height: 500px;
+    background-color: #222930;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 3%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.img1:hover {
+    cursor: pointer;
+}
+
+.img2:hover {
+    cursor: pointer;
+}
+
+.img3:hover {
+    cursor: pointer;
+}
+
+.img4:hover {
+    cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+.underHeader5 {
+    margin-left: 10%;
+    margin-top: 30px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 30px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: lighter;
+
+}
+
+#footer{
+    background-color:#222930 ;  
+
+}
+#footerlogo{
+padding-top: 50px;
+padding-bottom: 50px;
+background-color:#222930 ;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
