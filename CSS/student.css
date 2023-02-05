@@ -199,3 +199,10 @@ font-weight: lighter;
         }
 
 }
+@media (min-width: 2050px) and (max-width: 3210px){
+
+    #boxPage0{
+        height: 50rem;
+    }
+
+}
