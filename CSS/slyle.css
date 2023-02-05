@@ -17,6 +17,9 @@ ul {
     z-index: 1;
 }
 
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6{
+    width: 120px;
+}
 .btn:hover {
     cursor: pointer;
 }
@@ -109,6 +112,7 @@ body {
     margin-top: 250px;
     margin-left: 100px;
     font-family:'JetBrainsMono-Bold';
+    height: 100vh;
     
 }
 
@@ -116,7 +120,7 @@ body {
 #page2 {
     font-family:'JetBrainsMono-Bold';
     background-color:#222930 ;
-    height: 930px;
+    height: 100vh;
 }
 
 
@@ -126,6 +130,10 @@ body {
     text-align: center;
     margin-top: 300px;
     padding-top: 100px;
+}
+
+.photoMe{
+    width: 500px;
 }
 
 .aboutme{
@@ -161,9 +169,9 @@ margin-bottom: 190px;
     font-size: 16px;
 }
 
-#page3 {
+#page3, #page5 {
     font-family:'JetBrainsMono-Bold';
-    height: 900px;
+    height: 100vh;
     
 }
 
@@ -181,7 +189,7 @@ margin-bottom: 190px;
 #page4 {
     font-family:'JetBrainsMono-Bold';
     background-color:#222930 ;
-    height: 950px;
+    height: 100vh;
 }
 
 
@@ -192,11 +200,6 @@ margin-bottom: 190px;
     text-align: center;
     margin-top: 50px;
     padding-top: 100px;
-}
-
-#page5 {
-    font-family:'JetBrainsMono-Bold';
-    height: 900px;
 }
 
 
@@ -222,12 +225,6 @@ display: flex;
 justify-content: center;
 gap: 20px;
 }
-
-/* #upbutton{
-    display: flex;
-    justify-content: right;
-} */
-
 .back-to-top {
     background: #ffffff;
     border-radius: 50%;
@@ -314,6 +311,8 @@ justify-content: center;
     background-color:  #8400bd;
     position: absolute;
     font-size: 20px;
+    justify-self: center;
+    align-self: center;
 }
 
 
@@ -385,10 +384,6 @@ justify-content: center;
     justify-content: center;
 }
 
-.skill1-1 {
-    justify-self: center;
-    align-self: center;
-} 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 
 .underHeader5 {
@@ -409,3 +404,152 @@ justify-content: center;
     font-family:'JetBrainsMono-Bold';
 }
 
+.middleLine{
+    height: 400px;
+}
+
+@media (min-width: 3210px) and (max-width: 4096px){
+    ul{
+        height: 10%;
+    }
+    li{
+        font-size: 70px;
+        margin-top: 1%;
+    }
+    .btn1, .btn2, .btn3, .btn4, .btn5, .btn6{
+        width: 400px;
+    }
+    .white {
+        color: white;
+        font-size: 152px;
+    }
+    
+    .purple {
+        color: rgb(139, 31, 179);
+        font-size: 250px;
+    }
+    #Page1{
+        margin-top: 15%;
+        height: 1500px;
+    }
+
+    #page2{
+        max-height: 100vh;
+    }
+
+    #header2, #header3, #header4, #header5{
+        padding-top: 5%;
+        font-size: 152px;
+    }
+
+    /* #header5{
+        font-size: 152px;
+    } */
+
+    .photoMe{
+        width: 1000px;
+    }
+
+    .textme{
+        width: 2000px;
+        font-size: 60px;
+    }
+
+    .purple2, .purple3{
+        font-size: 60px;
+    }
+
+    .textme2{
+        font-size: 35px;
+    }
+
+    #footer{
+        margin-bottom: 5%;
+    }
+
+    .underHeader5{
+        font-size: 60px;
+    }
+    
+    .imgexp{
+        width: 2500px;
+    }
+
+    .middleLine{
+        height: 50vh;
+    }
+    .projectanc{
+        display: flex;
+        justify-content: center;
+        gap: 400px;
+    }
+
+
+    #job{
+        height: 600px;
+        margin: 0;
+    }
+    #job1{
+        margin-right: 400px;
+        margin-top: 400px;
+    }
+
+    #student{
+        height: 600px;
+        margin: 0;
+    }
+    #student1{
+        margin-right: 400px;
+    }
+    #skills{
+        padding-top: 15%;
+        gap: 10%;
+        align-items: center;
+    }
+    .skill1-1 {
+        height: 450px;
+        width: 450px;
+        font-size: 40px;
+        
+    }
+
+    .skill1-2 {
+        height: 20em;
+        width: 20em;
+        margin-bottom: 10%;
+    }
+
+    .skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .socialLogo{
+
+        width: 200px;
+    }
+    
+    
+
+
+  
+
+}
+
+@media (min-width: 1998px) and (max-width: 2048px){
+
+}
+
+@media (min-width: 979px) and (max-width: 1250px){
+
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+
+}
+
+@media (max-width: 768px){
+    
+}

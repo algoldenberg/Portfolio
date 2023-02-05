@@ -47,6 +47,7 @@ bottom: 20px;
 left: 20px;
 margin: 0;
 opacity: 0;
+max-height: 464.5px;
 }
 
 .slide.active{
@@ -95,7 +96,7 @@ background: #15191d;
 z-index: 1;
 }
     
-.btn11:hover {
+.btn1:hover {
 cursor: pointer;
 }
    
@@ -129,7 +130,6 @@ margin-bottom: 10rem;
 .projectText{
 color: #939CA5;
 font-size: 18px; 
-max-height: 300px;
 }
 
 #boxPage0{
@@ -166,4 +166,36 @@ opacity: 0.5;
 font-size: 20px;
 font-family: 'JetBrains Mono', monospace;
 font-weight: lighter;
+}
+
+@media (min-width: 3210px) and (max-width: 4096px){
+    .btn1{
+        font-size: 60px;
+    }
+
+    .underHeader0{
+        margin-top: 5%;
+        font-size: 122px;
+    }
+    .underHeader1{
+        font-size: 72px;
+    }
+
+    #boxPage0{
+        height: 70rem;
+    }
+
+    .point{
+        font-size: 62px;
+    }
+
+    .whiteText{
+        font-size: 72px;
+    }
+
+    .projectText{
+
+        font-size: 40px; 
+        }
+
 }

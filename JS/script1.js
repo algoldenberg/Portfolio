@@ -3,14 +3,11 @@ const skill1 = document.querySelector('.skill1')
 const skill11 = document.querySelectorAll('.skill1-1')
 
 skill1.onmouseover = () => {
-    // skill11[0].classList.toggle("unvisible");
     skill11[0].style.visibility = "hidden"
 }
 
 skill1.onmouseout = () => {
-    // skill11[0].classList.toggle("unvisible");
     skill11[0].style.visibility = "visible"
-    // skill11[0].style.transition = "all 1s ease-in"
 }
 //Skill2
 const skill2 = document.querySelector('.skill2')
@@ -86,8 +83,3 @@ skill7.onmouseover = () => {
 skill7.onmouseout = () => {
     skill77[6].style.visibility = "visible"
 }
-
-
-
-
-// It could be passed throu CSS and background image, but i fucked up

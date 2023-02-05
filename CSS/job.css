@@ -87,7 +87,8 @@ a {
     padding: 10px;
     border-radius: 10px;
 }
-.textozon{display: flex;
+.textozon{
+    display: flex;
     align-items: center;
     justify-items: center;
     width: 800px;
@@ -110,24 +111,39 @@ a {
     gap: 5px;
 }
 
-
-#boxPage0{
-    height: 600px;
-    background-color: #222930;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#footer{
-    background-color:#222930 ;  
+.ozonProjectPic{
+    width: 195px;
 
 }
-#footerlogo{
-padding-top: 50px;
-padding-bottom: 50px;
-background-color:#222930 ;
-display: flex;
-justify-content: center;
-gap: 20px;
+
+@media (min-width: 3210px) and (max-width: 4096px){
+
+    .btn1{
+        font-size: 60px;
+    }
+
+    #header1{
+        margin-top: 5%;
+        font-size: 152px;
+    }
+    #header2{
+        font-size: 100px;
+    }
+
+    #projectWindow1{
+    width: 800px;
+    height: 800px;
+
+    }
+
+    .textozon{
+        font-size: 72px;
+        width: 2500px;
+    }
+
+    .ozonProjectPic{
+        width: 395px;
+
+    }
+    
 }

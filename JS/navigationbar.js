@@ -12,43 +12,35 @@ for(let i = 0; i < btns.length; i++){
         btns_in[i].style = 'display:none'
     })
 }
-
-// let page2 = document.getElementById('header2')
-// let btn2 = document.querySelector('.btn2')
-// btn2.addEventListener ('click', () => { 
-// page2.scrollIntoView({block: "center", behavior: "smooth"})
-// })
-
-
-$(".btn2").click(function() { // ID откуда кливаем
+$(".btn2").click(function() {
     $('html, body').animate({
-    scrollTop: $("#page2").offset().top // класс объекта к которому приезжаем
-    }, 500); // Скорость прокрутки
+    scrollTop: $("#page2").offset().top
+    }, 500);
    });
 
 
-$(".btn3").click(function() { // ID откуда кливаем
+$(".btn3").click(function() {
 $('html, body').animate({
-scrollTop: $("#page3").offset().top // класс объекта к которому приезжаем
-}, 500); // Скорость прокрутки
+scrollTop: $("#page3").offset().top
+}, 500);
 });   
 
 
-$(".btn4").click(function() { // ID откуда кливаем
+$(".btn4").click(function() {
     $('html, body').animate({
-    scrollTop: $("#page4").offset().top // класс объекта к которому приезжаем
-    }, 500); // Скорость прокрутки
+    scrollTop: $("#page4").offset().top
+    }, 500);
     });   
 
-$(".btn5").click(function() { // ID откуда кливаем
+$(".btn5").click(function() {
      $('html, body').animate({
-    scrollTop: $("#page5").offset().top // класс объекта к которому приезжаем
-    }, 500); // Скорость прокрутки
+    scrollTop: $("#page5").offset().top
+    }, 500);
         });      
 
  
-$(".btn6").click(function() { // ID откуда кливаем
+$(".btn6").click(function() {
     $('html, body').animate({
-    scrollTop: $("#footer").offset().top // класс объекта к которому приезжаем
-    }, 500); // Скорость прокрутки
+    scrollTop: $("#footer").offset().top
+    }, 500);
     });             
